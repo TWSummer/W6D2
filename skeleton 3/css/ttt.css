@@ -1,0 +1,37 @@
+body{
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+ul{
+  margin: 0 auto;
+  width: 612px;
+  list-style: none;
+  border:2px solid black;
+  padding: 0;
+
+}
+
+ul::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul li{
+  width: 200px;
+  float: left;
+  border: 2px solid black;
+  height: 200px;
+  background-color: #999;
+  font-size: 150px;
+  text-align: center;
+  vertical-align: text-top;
+  font-weight: 700;
+}
+
+ul li:hover {
+  background-color: #ff0;
+}

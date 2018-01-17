@@ -1,0 +1,69 @@
+/* PHASE 9: Forms */
+.content-main{
+  padding-right: 0;
+}
+
+.post-submit-area {
+  display: flex;
+}
+
+.post-submit-area section {
+  background-color: #eee;
+  border-radius: 5px;
+  width: 500px;
+  padding: 20px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+}
+
+.post-submit-area label{
+  font-weight:700;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.post-submit-area input, textarea {
+  width: 95%;
+  display: block;
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.post-submit-area textarea {
+  height: 120px;
+}
+
+.post-submit-area input[type='submit']{
+  color: #fff;
+  background-color: #0c0;
+  font-weight: 700;
+  width: inherit;
+  padding: 10px 20px;
+  display: inherit;
+  border: none;
+  box-shadow: 0 3px 0 0 #070;
+}
+
+.post-submit-area input[type='submit']:hover {
+  background-color: #0a0;
+}
+
+.post-submit-area strong {
+  font-weight: 700;
+}
+
+.post-submit-area strong:hover {
+  color: #f00;
+  cursor: pointer;
+}
+
+.post-submit-area p {
+  display: inline;
+  padding: 0 5px;
+}
+
+.post-submit-area div {
+  padding-bottom: 20px;
+}

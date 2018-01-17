@@ -1,0 +1,9 @@
+/* PHASE 10: Posts */
+ .posts {
+   display: flex;
+ }
+
+.comment-box {
+  width: 500px;
+  margin-left: 20px;
+}
